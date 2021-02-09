@@ -306,7 +306,24 @@ p {
   flex-basis: 50%;
   height: 300px;
   overflow: hidden;
+  position: relative;
 }
+
+#projects .project-img::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(
+    to left top,
+    rgba(5, 35, 70, 0.7),
+    rgba(59, 140, 194, 0.3)
+  );
+  opacity: 0.7;
+}
+
 /* Projects end */
 
 /* Keyframes */
