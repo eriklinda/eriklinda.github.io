@@ -1,36 +1,35 @@
 * {
-  margin: 0;
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
-
 html {
   font-size: 10px;
   font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
 }
-
 a {
   text-decoration: none;
 }
-
 .container {
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
-
 p {
-  text-align: left;
+  color: black;
   font-size: 1.4rem;
-  line-height: 1.9rem;
+  margin-top: 5px;
+  line-height: 2.5rem;
+  font-weight: 300;
+  letter-spacing: 0.05rem;
 }
 
 /* HOME */
@@ -137,6 +136,7 @@ p {
 #services .service-top {
   max-width: 500px;
   margin: 0 auto;
+  padding-top: 200px;
 }
 
 #services .section-title {
@@ -178,6 +178,15 @@ p {
   );
   backdrop-filter: blur(2rem);
   position: relative;
+  overflow: hidden;
+}
+#services .service-item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
 }
 
 #services .service-bottom .icon {
