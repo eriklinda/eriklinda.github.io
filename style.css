@@ -32,6 +32,18 @@ p {
   letter-spacing: 0.05rem;
 }
 
+.section-title {
+  font-size: 4rem;
+  font-weight: 300;
+  color: black;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+.section-title span {
+  color: crimson;
+}
+
 /* HOME */
 #home {
   background-image: url(images/hero-bg.png);
@@ -223,7 +235,78 @@ p {
 /*service section end*/
 
 /* Projects start */
+#projects .projects {
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+#projects .projects-header h1 {
+  margin-bottom: 50px;
+}
+#projects .all-projects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#projects .project-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  margin: 20px auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+#projects .project-info {
+  padding: 30px;
+  flex-basis: 50%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(
+    to left top,
+    rgba(5, 35, 70, 0.7),
+    rgba(59, 140, 194, 0.3)
+  );
+  color: white;
+  backdrop-filter: blur(2rem);
+  overflow: hidden;
+  box-shadow: 6px 6px 20px rgb(122 122 122 / 100%);
+}
+#projects .project-info::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: -1;
+}
+#projects .project-info p {
+  color: white;
+}
+#projects .project-info h1 {
+  font-size: 4rem;
+  font-weight: 500;
+}
+#projects .project-info h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-top: 10px;
+}
 
+#projects .project-img {
+  flex-basis: 50%;
+  height: 300px;
+  overflow: hidden;
+}
 /* Projects end */
 
 /* Keyframes */
