@@ -174,8 +174,8 @@ p {
   margin: 10px 5%;
   background: linear-gradient(
     to left top,
-    rgba(0, 0, 0, 0.7),
-    rgba(139, 137, 3, 0.3)
+    rgba(151, 153, 29, 0.7),
+    rgba(14, 13, 2, 0.3)
   );
   backdrop-filter: blur(2rem);
   position: relative;
