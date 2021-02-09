@@ -21,6 +21,18 @@ a {
   justify-content: center;
 }
 
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+p {
+  text-align: left;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+}
+
 /* HOME */
 #home {
   background-image: url(images/hero-bg.png);
@@ -119,6 +131,12 @@ a {
   max-width: 1500px;
   margin: 0 auto;
   padding: 100px 0;
+  z-index: 1;
+}
+
+#services .service-top {
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 #services .section-title {
@@ -134,7 +152,7 @@ a {
 }
 #services .service-top p {
   font-size: 1.4rem;
-  margin-top: 5px;
+  margin-top: 2px;
   line-height: 2.5rem;
   font-weight: 300px;
   letter-spacing: 0.05rem;
@@ -159,8 +177,32 @@ a {
     rgba(27, 25, 15, 0.3)
   );
   backdrop-filter: blur(2rem);
+  position: relative;
 }
 
+#services .service-bottom .icon {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+#services .service-bottom .icon img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#services .service-item h2 {
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#services .service-item p {
+  text-align: left;
+  font-size: 1.4rem;
+}
 /*service section end*/
 
 /* Keyframes */
