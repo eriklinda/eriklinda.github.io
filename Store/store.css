@@ -194,6 +194,8 @@ p {
 
 #omsoss .section-title {
   margin: 0 auto;
+  Justify-content: center;
+  Align-items: center;
 }
 
 #omoss .omoss {
