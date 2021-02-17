@@ -194,14 +194,16 @@ p {
 
 #omsoss .section-title {
   margin: 0 auto;
-  Justify-content: center;
-  Align-items: center;
-  Text-align: center;
 }
 
 #omoss .omoss {
   display: flex;
   flex-direction: column;
+
+Justify-content: center;
+  Align-items: center;
+  Text-align: center;
+
 }
 
 #omoss .vi {
