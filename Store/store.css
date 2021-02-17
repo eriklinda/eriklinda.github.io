@@ -241,6 +241,11 @@ p {
   margin: 20px auto;
 }
 
+#instagram .insta {
+  display: flex;
+  flex-direktion: Column;
+}
+
 /* Footer */
 #footer {
   background: rgb(243, 211, 215);
