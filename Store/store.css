@@ -244,6 +244,7 @@ p {
 #instagram .insta {
   display: flex;
   flex-direktion: Column;
+  margin: 0 auto;
 }
 
 /* Footer */
