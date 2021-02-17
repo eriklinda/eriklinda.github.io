@@ -192,6 +192,10 @@ p {
   font-family: roboto;
 }
 
+#omsoss .section-title {
+  margin: 0 auto;
+}
+
 #omoss .omoss {
   display: flex;
   flex-direction: column;
@@ -243,7 +247,7 @@ p {
 
 #instagram .insta {
   display: flex;
-  flex-direktion: Column;
+  flex-direction: Column;
   margin: 0 auto;
 }
 
