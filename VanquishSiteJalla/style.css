@@ -747,13 +747,12 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        transform: unset;
     }
     #home .right-hand-column {
         margin-top: 100px;
     }
     #home .right-hand-column img {
-        transform: none;
+        transform: scale(1.3) rotateY(5deg) rotateZ(-5deg) rotateX(5deg);
     }
     .services-bottom {
         flex-direction: column;
