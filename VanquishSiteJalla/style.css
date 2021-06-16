@@ -164,7 +164,6 @@
     width: 100%;
     border-radius: 50%;
     border: 3px solid white;
-    animation: hamburger_puls 1s ease infinite;
   }
   #header .hamburger .bar {
     height: 2px;
