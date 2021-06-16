@@ -752,7 +752,7 @@
         margin-top: 100px;
     }
     #home .right-hand-column img {
-        transform: scale(1.3) rotateY(5deg) rotateZ(-5deg) rotateX(5deg);
+        transform: scale(1.3) rotateY(-5deg) rotateZ(-3deg) rotateX(0deg);
     }
     .services-bottom {
         flex-direction: column;
